@@ -1,6 +1,13 @@
 // src/components/Header.jsx
 import { useState, useEffect } from "react";
 
+// Vídeos na pasta public/videos/
+const videos = [
+  "/videos/video1.mp4",
+  "/videos/video2.mp4",
+  "/videos/video3.mp4",
+];
+
 export default function Header() {
   const [current, setCurrent] = useState(0);
 
