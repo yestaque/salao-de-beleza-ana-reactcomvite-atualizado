@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 
 function Home() {
   return (
@@ -18,9 +17,7 @@ function Home() {
         <p>Agende seu horário e venha se sentir ainda mais linda no Salão de Beleza da Ana! 💖</p>
         <p>Estamos ansiosos para cuidar de você! 🌟</p>
         <p>Agende agora e realce sua beleza com a gente! ✨</p>
-              <Header />
     </div>
   );
 }
-
-export default Home;
+ export default Home;
