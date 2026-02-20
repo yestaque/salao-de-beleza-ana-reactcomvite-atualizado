@@ -141,3 +141,26 @@ p {
     font-size: 0.9em;
   }
 }
+
+nav {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;     /* permite rolagem horizontal */
+  white-space: nowrap;  /* impede quebrar linha */
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4A4A4A;
+  font-weight: 500;
+  flex-shrink: 0;       /* impede encolher */
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
