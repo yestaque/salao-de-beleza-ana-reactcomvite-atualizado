@@ -1,0 +1,143 @@
+/* Variáveis globais (opcional, já usadas) */
+:root {
+  --bg-default: #fdf8ff;
+  --text-default: #4A4A4A;
+  --color-soft-blush: #F4C2D1;
+  --color-charcoal-gray: #333333;
+  --color-rose-gold: #B76E79;
+  --color-lavender-mist: #B39ACB;
+  --color-mint-green: #9EE0A0;
+}
+
+/* Reset e global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-default);
+  color: var(--text-default);
+}
+
+/* Cabeçalho fixo */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-soft-blush);
+  padding: 12px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+  font-weight: bold;
+}
+
+/* Links do menu */
+nav a {
+  color: var(--color-charcoal-gray);
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 1.1em;
+}
+nav a:hover {
+  color: var(--color-rose-gold);
+}
+
+/* Cards de produtos / seções */
+.card {
+  background-color: var(--color-lavender-mist);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+
+/* Botões */
+button {
+  background-color: var(--color-rose-gold);
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: var(--color-mint-green);
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--color-rose-gold);
+  margin-bottom: 8px;
+}
+
+/* Parágrafos */
+p {
+  font-size: 20px;
+}
+
+/* Cabeçalho e rodapé */
+.header, .footer {
+  background-color: var(--color-soft-blush);
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+/* Tablet (<= 768px) */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+    font-size: 1em;
+  }
+
+  .card {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 8px 18px;
+    font-size: 0.95em;
+  }
+}
+
+/* Celular (<= 480px) */
+@media (max-width: 480px) {
+  nav {
+    padding: 10px 0;
+  }
+
+  nav a {
+    font-size: 0.9em;
+    margin: 6px 0;
+  }
+
+  .card {
+    padding: 12px;
+    margin: 8px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 6px 14px;
+    font-size: 0.9em;
+  }
+}
