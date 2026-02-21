@@ -13,12 +13,14 @@ import cortefeminino from "../assets/cortefeminino.jpg";
 const produtos = [
   { id: 1, nome: "Manicure Carnaval", preco: "R$ 80,00", descricao: "Serviço especial de manicure com temática de carnaval.", imagem: carnavalmanicure },
   { id: 2, nome: "Coloração Mechas", preco: "R$ 150,00", descricao: "Coloração profissional de mechas para todos os estilos.", imagem: coloracaomechas },
-  { id: 3, nome: "Escovacao", preco: "R$ 60,00", descricao: "Escovação perfeita para brilho e movimento.", imagem: escovacao },
+  { id: 3, nome: "Tintura", preco: "R$ 60,00", descricao: "Tintura profissional para cabelos com tratamento especial.", imagem: escovacao },
   { id: 4, nome: "Manicure", preco: "R$ 50,00", descricao: "Manicure tradicional para mãos impecáveis.", imagem: manicure },
-  { id: 5, nome: "Escovação", preco: "R$ 90,00", descricao: "Escovação especial para cabelos com tratamento profundo.", imagem: escovação },
-  { id: 6, nome: "Corte Masculino", preco: "R$ 50,00", descricao: "Corte masculino moderno e estiloso para realçar sua personalidade.", imagem: cortemasculino },
-  { id: 7, nome: "Sobrancelha", preco: "R$ 40,00", descricao: "Design de sobrancelha para realçar a beleza do seu olhar.", imagem: sobrancelha },
-  { id: 8, nome: "Corte Feminino", preco: "R$ 40,00", descricao: "Corte feminino personalizado para realçar sua beleza única.", imagem: cortefeminino },
+  { id: 5, nome: "Pedicure", preco: "R$ 70,00", descricao: "Pedicure completa para pés macios e bem cuidados.", imagem: pedicure },
+  { id: 6, nome: "Escovação", preco: "R$ 90,00", descricao: "Escovação especial para cabelos com tratamento profundo.", imagem: escovação },
+  { id: 7, nome: "Progressiva", preco: "R$ 200,00", descricao: "Alisamento progressivo para cabelos lisos e brilhantes.", imagem: progressiva },
+  { id: 8, nome: "Corte Masculino", preco: "R$ 50,00", descricao: "Corte masculino moderno e estiloso para realçar sua personalidade.", imagem: cortemasculino },
+  { id: 9, nome: "Sobrancelha", preco: "R$ 40,00", descricao: "Design de sobrancelha para realçar a beleza do seu olhar.", imagem: sobrancelha },
+  { id: 10, nome: "Corte Feminino", preco: "R$ 40,00", descricao: "Corte feminino personalizado para realçar sua beleza única.", imagem: cortefeminino },
 ];
 
 function ProdutoDetalhe() {
