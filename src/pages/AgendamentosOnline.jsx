@@ -11,7 +11,7 @@ function AgendamentosOnline() {
   const numeroWhatsApp = "5584992160269";
 
   const horariosDisponiveis = [
-    "09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00"
+    "09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00","19:00","20:00"
   ];
 
   // Horários ocupados do dia selecionado
