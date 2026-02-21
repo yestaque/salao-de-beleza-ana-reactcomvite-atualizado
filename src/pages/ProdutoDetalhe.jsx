@@ -9,6 +9,8 @@ import manicure from "../assets/manicure.jpg";
 import cortemasculino from "../assets/cortemasculino.jpg";
 import sobrancelha from "../assets/sobrancelha.jpg";
 import cortefeminino from "../assets/cortefeminino.jpg";
+import pedicure from "../assets/pedicure.jpg";
+import progressiva from "../assets/progressiva.jpg";
 
 const produtos = [
   { id: 1, nome: "Manicure Carnaval", preco: "R$ 80,00", descricao: "Serviço especial de manicure com temática de carnaval.", imagem: carnavalmanicure },
